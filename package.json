@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Api desenvolvida no programa Explorer da RocketSeat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js",
+    "migrate": "knex migrate:latest"
+  },
+  "author": "Yruam Käffer de Faria",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.2.0",
+    "multer": "^1.4.5-lts.1",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
